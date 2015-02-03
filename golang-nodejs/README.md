@@ -5,7 +5,7 @@ It also bundles the latest version of [nodejs](https://nodejs.org) and [npm](htt
 
 ### Base Docker Image
 
-* [`google/golang`](https://index.docker.io/u/google/golang)
+* [`golang:1.4.1`](https://registry.hub.docker.com/_/golang/)
 
 ### Borrows From DockerFiles
 
