@@ -14,6 +14,6 @@ This image also includes:
 
 * [Bower](http://bower.io/)
 * [Gulp](http://gulpjs.com/) 
-* tsd (Typescript for gulp)
+* [Typings](https://github.com/typings/typings)
 * Ruby 
 * Sass
