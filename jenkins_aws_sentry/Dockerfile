@@ -1,4 +1,4 @@
-FROM jenkins/jenkins
+FROM jenkins/jenkins:lts
 
 USER root
 RUN apt-get update -qq && apt-get install -y postgresql python-pip python-dev build-essential
