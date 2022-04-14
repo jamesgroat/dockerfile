@@ -1,10 +1,10 @@
-FROM jetbrains/teamcity-agent:2021.1.1-linux-sudo
+FROM jetbrains/teamcity-agent:2021.2.3-linux-sudo
 
 USER root
 ENV TZ=America/Phoenix
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-RUN curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+RUN curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 RUN apt-get update -qq && apt-get install -qq -y build-essential nodejs
 RUN npm install -g npm@latest
 
